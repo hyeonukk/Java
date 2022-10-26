@@ -26,14 +26,16 @@ public class DateCreate {
 		System.out.println(asd.format(firstmeetingTime));
 		
 		//년월일을 비교해서 년월일이 같으면 시간 과 분을 그렇지 않으면 년월일을 출력
-		Date SecondmeetingTime = new Date(99, 9, 9, 0,0);
+		Date SecondmeetingTime = new Date(77, 6, 7, 17, 0, 0);
 		System.out.println(SecondmeetingTime);
 		
 		SimpleDateFormat qwe = new SimpleDateFormat("h시 mm분 s초");
 		System.out.println(qwe.format(SecondmeetingTime));
 		
 		if(firstmeetingTime==SecondmeetingTime) {
-			
+			System.out.println(qwe.format(firstmeetingTime));
+		}else {
+			System.out.println(asd.format(SecondmeetingTime));
 		}
 	}
 }

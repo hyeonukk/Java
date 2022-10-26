@@ -6,6 +6,7 @@ public class CollectionTest3 {
 	public static void main(String[] args) {
 		//문자열을 저장하는 ArrayList 생성저장할 변수설정
 		ArrayList <String> ai = new ArrayList<>();
+		
 		//샘플 데이터 추가
 		ai.add("one");
 		ai.add("Three");
@@ -19,7 +20,7 @@ public class CollectionTest3 {
 		// 걸린시간 확인
 		System.out.println(end - start);
 		
-		
+		System.out.println("---------------------------");
 		LinkedList <String> li = new LinkedList<>();
 		
 		li.add("one");
