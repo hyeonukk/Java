@@ -4,6 +4,7 @@ public class ArraysMain1 {
 
 	public static void main(String[] args) {
 		
+
 	//문자열 배열 생성
 	String[] country = {"korea", "japan", "usa", "china", "spain"};
 		

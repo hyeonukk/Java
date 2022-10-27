@@ -27,5 +27,6 @@ public class Generic {
 		Generics <Integer> g2 = new Generics<>(100, 300, 200, 400);
 		g2.display();
 		
+	
 	}
 }
