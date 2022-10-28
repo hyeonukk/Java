@@ -8,13 +8,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		//HashMap 생성
-		Map <String, Object> map = new HashMap<>();
+		HashMap <String, Object> map = new HashMap<>();
 
 		//Map에 데이터 저장 - put
 		map.put("num", 1);
 		map.put("name", "아담");
 		map.put("job", "singer");
 		map.put("job", "Cyber singer");
+		
 		//동일한 key에 데이터를 저장하면 이전데이터가 삭제되고 수정됨.
 
 		//전체 데이터 확인

@@ -19,6 +19,7 @@ public class Main {
 		intQueue.offer(90);
 		
 		//데이터 꺼내기
+	
 		System.out.println(intQueue.poll());
 		System.out.println(intQueue.poll());
 		System.out.println(intQueue.poll());
